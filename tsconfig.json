@@ -2,6 +2,20 @@
   "extends": "./.wxt/tsconfig.json",
   "compilerOptions": {
     "allowImportingTsExtensions": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "lib": [
+      "ESNext",
+      "DOM",
+      "WebWorker",
+      "dom.iterable"
+    ],
+    "types": [
+      "chrome"
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
   }
 }
