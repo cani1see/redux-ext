@@ -13,6 +13,7 @@ export default defineConfig({
   manifest: ({ browser, manifestVersion, mode, command }) => {
     return {
       name: "wxt-dev-extension",
+      permissions: ["storage"],
     }
   },
   vite: () => ({
