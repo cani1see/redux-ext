@@ -1,2 +1,1 @@
-yarn install
-yarn run dev
+`yarn install` then `yarn run dev`
